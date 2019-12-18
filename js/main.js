@@ -44,7 +44,7 @@ function setBgGreet() {
 		greeting.textContent = 'Good Morning';
 	} else if (hour < 18) {
 		//Afternoon
-		document.body.style.backgroundImage = "url('https://source.unsplash.com/SwIh3kr1__U')";
+		document.body.style.backgroundImage = "url('https://source.unsplash.com/eew2Sz9U5WY')";
 		document.body.style.backgroundRepeat = 'no-repeat';
 		document.body.style.backgroundSize = 'cover';
 		greeting.textContent = 'Good Afternoon';

@@ -38,15 +38,15 @@ function setBgGreet() {
 
 	if (hour < 12) {
 		//morning
-		document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?morning')";
+		document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/tSR133k8Diw')";
 		greeting.textContent = 'Good Morning';
 	} else if (hour < 18) {
 		//Afternoon
-		document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?afternoon')";
+		document.body.style.backgroundImage = "url('https://source.unsplash.com/SwIh3kr1__U')";
 		greeting.textContent = 'Good Afternoon';
 	} else {
 		//evening
-		document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?Evening')";
+		document.body.style.backgroundImage = "url('https://source.unsplash.com/SQfRrFwECic')";
 		greeting.textContent = 'Good Evening';
 		document.body.style.color = 'white';
 	}

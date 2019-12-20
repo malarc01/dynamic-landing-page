@@ -42,6 +42,7 @@ function setBgGreet() {
 		document.body.style.backgroundRepeat = 'no-repeat';
 		document.body.style.backgroundSize = 'cover';
 		greeting.textContent = 'Good Morning';
+		document.body.style.color = 'white';
 	} else if (hour < 18) {
 		//Afternoon
 		document.body.style.backgroundImage = "url('https://source.unsplash.com/eew2Sz9U5WY')";
